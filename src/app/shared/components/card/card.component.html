@@ -1,0 +1,20 @@
+@if(displayDeleteCardBtn) {
+    <button igxIconButton="outlined" class="absolute top-0 left-0 m-2 bg-white-500" (click)="onDeleteCardFromDeck()">
+        <igx-icon class="text-red-500">delete</igx-icon>
+    </button>
+}
+
+@if(!displayDeleteCardBtn) {
+    <button igxIconButton="outlined" class="absolute top-0 left-0 m-2 bg-yellow-500" (click)="onAdd()">
+        <igx-icon>add</igx-icon>
+    </button>
+    <button igxIconButton="outlined" class="absolute top-0 right-0 m-2 bg-yellow-500" (click)="onRemove()">
+        <igx-icon>remove</igx-icon>
+    </button>
+}
+
+<div [ngClass]="{'bg-opacity-80': opacitySignal, 'bg-gray-900': opacitySignal}">
+    <igx-avatar [src]="card.images.small" alt="pokemon"
+        [ngClass]="{'w-12rem h-17rem object-cover': true, 'bg-black opacity-30': opacitySignal}">
+    </igx-avatar>
+</div>

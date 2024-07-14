@@ -1,0 +1,28 @@
+/* styles.scss */
+.flex-center {
+  @apply flex items-center justify-center;
+}
+
+.min-screen {
+  @apply min-h-screen;
+}
+
+.card-wrapper {
+  @apply min-w-[20vw] min-h-[20vh] flex flex-col items-center justify-center shadow-xl;
+}
+
+.logo-img {
+  @apply w-2/4 h-auto mb-4;
+}
+
+.button-wrapper {
+  @apply mb-4;
+}
+
+.button-primary {
+  @apply mr-4 border-2 border-blue-500 bg-yellow-500 text-black hover:bg-yellow-400 hover:border-blue-600;
+}
+
+.button-secondary {
+  @apply border-blue-500 border-2 bg-yellow-500 text-black hover:bg-yellow-400 hover:border-blue-600;
+}

@@ -1,0 +1,44 @@
+<div class="container">
+    <!-- header -->
+    <div class="header">
+        <div class="back-button" (click)="back()">
+            <igx-icon>arrow_back</igx-icon>
+            <span>Voltar</span>
+        </div>
+        <span class="title">
+            Meus Baralhos
+        </span>
+    </div>
+
+    <!-- deck list -->
+    @if(!loading) {
+        <div class="deck-list">
+            <ng-container>
+                @for (deck of decks; track deck.id) {
+                    <div class="deck-content">
+                        <img src="/assets/images/deck-logo.png" 
+                            class="deck-image"
+                            alt="pokemon" 
+                            (click)="openDeckDetails(deck.id)">
+                            
+                        <span class="deck-name">
+                            {{deck.name}}
+                        </span>
+                        <button igxButton="contained"
+                            igxRipple 
+                            class="remove-button"
+                            (click)="delete(deck)">
+                            Remover
+                        </button>
+                    </div>
+                }
+            </ng-container>
+        </div>
+    }
+    <!-- loading -->
+    @if(loading) {
+        <div class="loading">
+            <div class="ball"></div>
+        </div>
+    }
+</div>
