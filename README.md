@@ -1,4 +1,4 @@
-# Pokemon TCG UI
+# Pokémon TCG UI
 
 ## Descrição do Projeto
 
