@@ -87,7 +87,7 @@ export class CreateDeckComponent implements OnDestroy {
           [],
           [
             Validators.required,
-            Validators.minLength(5),
+            Validators.minLength(24),
             Validators.maxLength(60),
           ],
         ],
