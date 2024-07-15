@@ -25,7 +25,7 @@ Siga os passos abaixo para configurar e executar o projeto localmente em sua má
 Clone o repositório do projeto usando Git:
 
 ```bash
-git clone https://github.com/seu-usuario/app-pokemontcg.git
+git clone https://github.com/andrevriibeiro/pokemontcgui.git
 ```
 
 ### 2. Navegar para o Diretório do Projeto
@@ -33,7 +33,7 @@ git clone https://github.com/seu-usuario/app-pokemontcg.git
 Entre no diretório do projeto:
 
 ```bash
-cd app-pokemontcg
+cd pokemontcgui
 ```
 
 ### 3. Instalar Dependências
