@@ -96,3 +96,7 @@ body {
   animation: roll 2s linear infinite;
   -webkit-animation: roll 2s linear infinite;
 }
+
+.justify-text-center {
+  @apply w-full h-[60vh] flex items-center justify-center;
+}

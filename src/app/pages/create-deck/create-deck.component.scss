@@ -1,3 +1,39 @@
+.right {
+
+  &__content {
+    @apply bg-gray-900 text-white p-4 rounded-lg shadow-md w-full lg:w-1/5 bg-opacity-70 h-[70vh];
+  }
+
+  &__input-form {
+    @apply w-full p-2 mt-1 text-gray-900 placeholder-gray-500 bg-gray-700 bg-opacity-60 border border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500;
+  }
+
+  &__btn {
+    @apply w-full border-blue-500 border-2 bg-yellow-500 
+           text-black hover:bg-yellow-400 hover:border-blue-600
+           disabled:bg-gray-300 disabled:border-gray-300 disabled:text-gray-500;
+  }
+}
+
+.left {
+
+  &__input {
+    @apply w-full p-2 text-white placeholder-white bg-gray-800 bg-opacity-70;
+  }
+  
+  &__card-list {
+    @apply grid gap-5 justify-center p-4 grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 mb-20;
+  }
+
+  &__text-center {
+    @apply w-full h-[60vh] flex items-center justify-center;
+  }
+}
+
+igx-paginator {
+  @apply fixed bottom-4 left-1/2 transform -translate-x-1/2 p-2 rounded-md shadow-lg bg-white w-full;
+}
+
 .flex-item {
   display: flex;
   text-align: start;
