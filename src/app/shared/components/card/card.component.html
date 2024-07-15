@@ -1,14 +1,14 @@
 @if(displayDeleteCardBtn) {
-    <button igxIconButton="outlined" class="absolute top-0 left-0 m-2 bg-white-500" (click)="onDeleteCardFromDeck()">
+    <button igxIconButton="outlined" class="top-0 left-0 m-2 bg-white-500" (click)="onDeleteCardFromDeck()">
         <igx-icon class="text-red-500">delete</igx-icon>
     </button>
 }
 
 @if(!displayDeleteCardBtn) {
-    <button igxIconButton="outlined" class="absolute top-0 left-0 m-2 bg-yellow-500" (click)="onAdd()">
+    <button igxIconButton="outlined" class="top-0 left-0 m-2 bg-yellow-500" (click)="onAdd()">
         <igx-icon>add</igx-icon>
     </button>
-    <button igxIconButton="outlined" class="absolute top-0 right-0 m-2 bg-yellow-500" (click)="onRemove()">
+    <button igxIconButton="outlined" class="top-0 left-20 m-2 bg-yellow-500" (click)="onRemove()">
         <igx-icon>remove</igx-icon>
     </button>
 }
