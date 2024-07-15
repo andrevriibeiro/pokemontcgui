@@ -2,8 +2,8 @@
 
 ## Descrição do Projeto
 
-O **Pokemon TCG UI** é um projeto de interface de usuário para o jogo de cartas colecionáveis Pokémon. Este projeto visa fornecer uma interface interativa e responsiva para gerenciar baralhos,
-e cartas de pokémon.
+O **Pokemon TCG UI** é um projeto de interface de usuário para o jogo de cartas colecionáveis Pokémon que integra com a API de pokemon TCG (https://docs.pokemontcg.io/#api_v1cards_list). 
+Este projeto visa fornecer uma interface interativa e responsiva para gerenciar baralhos, e cartas de pokémon.
 
 ## Tecnologias Utilizadas
 
@@ -14,7 +14,7 @@ Construído com Angular 17.1.0, o Pokemon TCG UI integra uma variedade de biblio
 - **Angular**: Framework para construção de aplicações web.
 - **Tailwind CSS**: Framework CSS para design responsivo e estilização.
 - **Ignite UI Angular**: Biblioteca de componentes UI para Angular.
-- **SweetAlert2**: Biblioteca para exibição de alertas bonitos e interativos.
+- **SweetAlert2**: Biblioteca para exibição de alertas.
 
 ## Instalação
 
